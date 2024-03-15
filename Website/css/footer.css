@@ -1,0 +1,93 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    padding: 0 15px;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo img {
+    max-width: 100%;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .event-list,
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-list li,
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .event-list a,
+  .contact-info a,  
+  .footer p,  
+  h3 {  
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  .event-list a:hover,
+  .contact-info a:hover,
+  .footer p:hover,
+  h3:hover {
+    color: #ffffff;
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e2e2e2;
+    color: #ffffff;
+  }
+  
+  
+  .fab,
+  .fas {
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+  }
+  
